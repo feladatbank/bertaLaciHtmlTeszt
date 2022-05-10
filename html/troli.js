@@ -1,3 +1,4 @@
+
 var vegallomasNevek = [];
 vegallomasNevek["70"] = "Kossuth Lajos tér - Erzsébet királyné útja, aluljáró";
 vegallomasNevek["72"] = "Orczy tér - Zugló vasútállomás (Hermina út)";
@@ -20,11 +21,9 @@ function jaratKiiras(elem, index){
 }
 
 function vegallomasKiiras(jarat){
-    document.getElementById("valasz").innerHTML=vegallomasNevek[jarat];
-}
+    document.getElementById("valasz").innerHTML=vegallomasNevek[jarat];}
 
 function fel() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
-
